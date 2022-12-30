@@ -1,0 +1,22 @@
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
+import { Header } from "./components/Header/Header";
+import { Feedback } from "./components/Feedback/Feedback";
+import { AboutUs } from "./components/AboutUs/AboutUs";
+
+function App() {
+  return (
+    <div>
+      <div className="App">
+        <Header />
+      </div>
+      <div><AboutUs/></div>
+      <div className="App">
+        <Feedback />
+      </div>
+    </div>
+  );
+}
+
+export default App;

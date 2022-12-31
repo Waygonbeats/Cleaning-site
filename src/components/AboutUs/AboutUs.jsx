@@ -10,7 +10,7 @@ export const AboutUs = () => {
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div className="md:5/12 lg:w-5/12">
             <img
-              src="src\assets\red_haired_young_man_overstained_with_housekeeping_holds_basin_with (1).jpg"
+              src="src\assets\beardman.jpg"
               alt="image"
               loading="lazy"
               width=""

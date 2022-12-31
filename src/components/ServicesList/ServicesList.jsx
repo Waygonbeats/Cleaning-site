@@ -11,7 +11,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="src\assets\maintenance-cleaning.jpg"
+              src="src\assets\handcleaning.jpg"
               alt=""
             />
           </a>
@@ -33,7 +33,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="src\assets\840_original.jpg"
+              src="src\assets\cleaninggirl.jpg"
               alt=""
             />
           </a>
@@ -55,7 +55,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="src\assets\уборка-после-ремонта.jpg"
+              src="src\assets\cleaningbeforebuild.jpg"
               alt=""
             />
           </a>
@@ -78,7 +78,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="src\assets\shutterstock_500096920-1-1-800x534.jpeg"
+              src="src\assets\cleaningman.jpeg"
               alt=""
             />
           </a>

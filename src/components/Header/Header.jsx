@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <nav className="headerPozition">
       <div className="imgConteiner">
-        <img className="img" src="src\assets\Picsart_22-12-24_18-09-10-302.png"
+        <img className="img" src="src\assets\logo.png"
 />      </div>
       <div className="navPozition">
         <div className="novigationHeader" href="#aboutUs">
@@ -22,8 +22,8 @@ export const Header = () => {
       </div>
       <div className="commContainer">
         <div className="messengerImgContainer">
-          <img className="messengerImg" src="src\assets\whatsapp-121.png" />
-          <img className="messengerImg" src="src\assets\pngwing.com.png" />
+          <img className="messengerImg" src="src\assets\wapplogo.png" />
+          <img className="messengerImg" src="src\assets\tglogo.png" />
         </div>
         <div className="numberContainer">
           <div className="number">+7 991 240 65 66</div>

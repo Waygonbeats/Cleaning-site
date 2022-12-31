@@ -22,7 +22,7 @@ export const Header = () => {
       </div>
       <div className="commContainer">
         <div className="messengerImgContainer">
-          <img className="messengerImg" src="public\wapplogo.png" />
+          <img className="messengerImg" src="public\static\wapplogo.png" />
           <img className="messengerImg" src="public\tglogo.png" />
         </div>
         <div className="numberContainer">

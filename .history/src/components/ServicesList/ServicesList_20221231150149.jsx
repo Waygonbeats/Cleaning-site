@@ -11,7 +11,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="public\handcleaning.jpg"
+              src="public\static\images\handcleaning.jpg"
               alt=""
             />
           </a>
@@ -33,7 +33,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="public\cleaninggirl.jpg"
+              src="public\static\images\cleaninggirl.jpg"
               alt=""
             />
           </a>
@@ -55,7 +55,7 @@ export const ServicesList = () => {
           <a href="#!">
             <img
               className="rounded-t-lg"
-              src="public\cleaningbeforebuild.jpg"
+              src="public\static\images\cleaningbeforebuild.jpg"
               alt=""
             />
           </a>

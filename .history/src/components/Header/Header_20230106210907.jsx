@@ -31,20 +31,17 @@ export const Header = () => {
               <AnchorLink href="#makeOrder">Сделать заказ</AnchorLink>
             </a>
           </div>
-        
-            <a class="flex items-center px-3 justify-center lg:justify-between py-2 text-teal-lighter border-teal-light hover:text-white ">
-              <div className="commContainer">
-                <div className="messengerImgContainer">
-                  <img className="messengerImg" src="/wapplogo.png" />
-                  <img className="messengerImg" src="/tglogo.png" />
-                </div>
-                <div className="numberContainer">
-                  <div className="number">+7 991 240 65 66</div>
-                  <div className="number">+7 991 240 65 66</div>
-                </div>
-              </div>
-            </a>
-        
+
+          <a class="flex items-center px-3 py-2 text-teal-lighter border-teal-light hover:text-white ">
+            
+              <img className="messengerImg" src="/wapplogo.png" />
+              <img className="messengerImg" src="/tglogo.png" />
+            
+            <div className="numberContainer">
+              <div className="number">+7 991 240 65 66</div>
+              <div className="number">+7 991 240 65 66</div>
+            </div>
+          </a>
         </div>
       </nav>
     </>

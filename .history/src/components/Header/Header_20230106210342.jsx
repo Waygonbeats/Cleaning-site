@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <>
       <nav class="flex items-center text-black justify-center lg:justify-between w-full bg-white flex-wrap  p-6">
-        <div class="flex items-center flex-no-shrink text-black mx-6">
+        <div class="flex items-center flex-no-shrink text-black ml-6">
           <span class="font-bold text-xl tracking-tight">JB cleaning</span>
         </div>
 
@@ -31,8 +31,8 @@ export const Header = () => {
               <AnchorLink href="#makeOrder">Сделать заказ</AnchorLink>
             </a>
           </div>
-        
-            <a class="flex items-center px-3 justify-center lg:justify-between py-2 text-teal-lighter border-teal-light hover:text-white ">
+          <div class="block lg:flex  lg:justify-center  ">
+            <a class="flex items-center px-3 py-2 text-teal-lighter border-teal-light hover:text-white ">
               <div className="commContainer">
                 <div className="messengerImgContainer">
                   <img className="messengerImg" src="/wapplogo.png" />
@@ -44,7 +44,7 @@ export const Header = () => {
                 </div>
               </div>
             </a>
-        
+          </div>
         </div>
       </nav>
     </>

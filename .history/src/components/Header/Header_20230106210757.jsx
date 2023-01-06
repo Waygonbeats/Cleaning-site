@@ -32,7 +32,7 @@ export const Header = () => {
             </a>
           </div>
         
-            <a class="flex items-center px-3 justify-center lg:justify-between py-2 text-teal-lighter border-teal-light hover:text-white ">
+            <a class="flex items-center px-3 py-2 text-teal-lighter border-teal-light hover:text-white ">
               <div className="commContainer">
                 <div className="messengerImgContainer">
                   <img className="messengerImg" src="/wapplogo.png" />

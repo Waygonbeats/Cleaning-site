@@ -7,14 +7,14 @@ export const Downdrop = () => {
     setOpen(!isOpen);
   };
   return (
-    <div className="dropdown w-[600px]   items-center flex flex-col">
+    <div className="dropdown w-[350px] items-center flex flex-col">
       <button
-        className="text-white  w-full justify-between  bg-amber-600 hover:bg-amber-500 focus:ring-4  font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
+        className="text-white  bg-amber-600 hover:bg-amber-500 focus:ring-4  font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
         onClick={handleDropDown}
       >
         Дополнительные услуги
         <svg
-          className="ml-2 w-4 h-4 "
+          className="ml-2 w-4 h-4"
           aria-hidden="true"
           fill="none"
           stroke="currentColor"
@@ -32,11 +32,11 @@ export const Downdrop = () => {
 
       <div
         id="dropdown"
-        className={`z-10  bg-white rounded w-full  divide-y divide-gray-100 shadow ${
+        className={`z-10  bg-white rounded  divide-y divide-gray-100 shadow ${
           isOpen ? "block" : "hidden"
         }`}
       >
-        <ul className=" z-10 w-full  bg-white rounded divide-y  divide-gray-100 shadow ">
+        <ul className=" z-10  bg-white rounded divide-y  divide-gray-100 shadow ">
           <li className="block py-2 px-4 text-left hover:bg-gray-100">Глажка белья 500₽ час </li>
           <li className="block py-2 px-4 text-left hover:bg-gray-100">Кухонный гарнитур внутри 1000₽</li>{" "}
           <li className="block py-2 px-4 text-left hover:bg-gray-100">Холодильник внутри 500₽</li>

@@ -32,7 +32,7 @@ export const Downdrop = () => {
 
       <div
         id="dropdown"
-        className={`z-10  bg-white rounded w-full  divide-y divide-gray-100 shadow ${
+        className={`z-10  bg-white rounded  divide-y divide-gray-100 shadow ${
           isOpen ? "block" : "hidden"
         }`}
       >

@@ -23,7 +23,7 @@ export const Header = () => {
       <div className="commContainer">
         <div className="messengerImgContainer">
           <img className="messengerImg" src="/wapplogo.png" />
-          <img className="messengerImg" src="/tglogo.png" />
+          <img className="messengerImg" src="public\tglogo.png" />
         </div>
         <div className="numberContainer">
           <div className="number">+7 991 240 65 66</div>

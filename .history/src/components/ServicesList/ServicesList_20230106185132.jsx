@@ -4,9 +4,9 @@ import { Downdrop } from "./Downdrop";
 
 export const ServicesList = () => {
   return (
-    <div className="flex items-center flex-col">
+    <div className="flex flex-col">
       <section id="services"></section>
-      <div className="flex flex-col  items-baseline  lg:flex-row">
+      <div className="flex flex-col items-baseline justify-center lg:flex-row   ">
         <div className="rounded-lg shadow-lg bg-white w-56 m-2 ">
           <a href="#!">
             <img
@@ -31,7 +31,11 @@ export const ServicesList = () => {
         </div>
         <div className="rounded-lg shadow-lg  bg-white w-56 m-2 ">
           <a href="#!">
-            <img className="rounded-t-lg" src="/cleaninggirl.jpg" alt="" />
+            <img
+              className="rounded-t-lg"
+              src="/cleaninggirl.jpg"
+              alt=""
+            />
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">
@@ -72,7 +76,11 @@ export const ServicesList = () => {
         </div>
         <div className="rounded-lg shadow-lg bg-white w-56 m-2">
           <a href="#!">
-            <img className="rounded-t-lg" src="/cleaningman.jpeg" alt="" />
+            <img
+              className="rounded-t-lg"
+              src="/cleaningman.jpeg"
+              alt=""
+            />
           </a>
           <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">

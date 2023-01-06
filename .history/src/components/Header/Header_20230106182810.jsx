@@ -31,7 +31,7 @@ export const Header = () => {
               <AnchorLink href="#makeOrder">Сделать заказ</AnchorLink>
             </a>
           </div>
-          <div class="block lg:flex  lg:justify-center  ">
+          <div class="block lg:flex lg:items-center lg:justify-center ">
             <a class="flex items-center px-3 py-2 text-teal-lighter border-teal-light hover:text-white ">
               <div className="commContainer">
                 <div className="messengerImgContainer">

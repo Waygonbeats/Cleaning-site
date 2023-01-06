@@ -10,7 +10,7 @@ export const ServicesList = () => {
         <div className="rounded-lg shadow-lg bg-white w-56 m-2 ">
           <a href="#!">
             <img
-              className="rounded-t-lg h-[148px]"
+              className="rounded-t-lg h-36,5"
               src="/handcleaning.jpg"
               alt=""
             />

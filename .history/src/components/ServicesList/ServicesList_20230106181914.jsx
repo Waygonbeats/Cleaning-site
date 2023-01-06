@@ -7,10 +7,10 @@ export const ServicesList = () => {
     <div className="flex flex-col">
       <section id="services"></section>
       <div className="flex flex-col items-baseline lg:flex-row lg:justify-center ">
-        <div className="rounded-lg shadow-lg bg-white w-56 m-2 ">
+        <div className="rounded-lg shadow-lg bg-white w-56 m-2">
           <a href="#!">
             <img
-              className="rounded-t-lg h-[148px]"
+              className="rounded-t-lg"
               src="/handcleaning.jpg"
               alt=""
             />
@@ -22,7 +22,7 @@ export const ServicesList = () => {
             <AnchorLink href="#makeOrder">
               <button
                 type="button"
-                className=" inline-block px-6 py-2.5 mt-8 bg-amber-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-600 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+                className=" inline-block px-6 py-2.5 mt-11 bg-amber-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-600 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Заказать
               </button>
